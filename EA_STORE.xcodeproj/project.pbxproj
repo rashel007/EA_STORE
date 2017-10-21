@@ -12,6 +12,7 @@
 		26F79DD51F9A86FE0028155E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F79DD31F9A86FE0028155E /* Main.storyboard */; };
 		26F79DD71F9A86FE0028155E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F79DD61F9A86FE0028155E /* Assets.xcassets */; };
 		26F79DDA1F9A86FE0028155E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F79DD81F9A86FE0028155E /* LaunchScreen.storyboard */; };
+		2929A48DE77FD70664FCD078 /* Pods_EA_STORE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABF0BE825CCE916629013FD /* Pods_EA_STORE.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		26F79DD61F9A86FE0028155E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26F79DD91F9A86FE0028155E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26F79DDB1F9A86FE0028155E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ABF0BE825CCE916629013FD /* Pods_EA_STORE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EA_STORE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13EB0CB9CE69C9E6F14E07A /* Pods-EA_STORE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EA_STORE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EA_STORE/Pods-EA_STORE.debug.xcconfig"; sourceTree = "<group>"; };
+		B22B4E38CC66039398F46237 /* Pods-EA_STORE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EA_STORE.release.xcconfig"; path = "Pods/Target Support Files/Pods-EA_STORE/Pods-EA_STORE.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2929A48DE77FD70664FCD078 /* Pods_EA_STORE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				26F79DCE1F9A86FE0028155E /* EA_STORE */,
 				26F79DCD1F9A86FE0028155E /* Products */,
+				B7E7815993729F7BFEE7FF53 /* Pods */,
+				4E7F0E176A7C09DD390C051D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = EA_STORE;
 			sourceTree = "<group>";
 		};
+		4E7F0E176A7C09DD390C051D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ABF0BE825CCE916629013FD /* Pods_EA_STORE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7E7815993729F7BFEE7FF53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A13EB0CB9CE69C9E6F14E07A /* Pods-EA_STORE.debug.xcconfig */,
+				B22B4E38CC66039398F46237 /* Pods-EA_STORE.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26F79DDE1F9A86FE0028155E /* Build configuration list for PBXNativeTarget "EA_STORE" */;
 			buildPhases = (
+				AE112956481AABDBD6DC80E4 /* [CP] Check Pods Manifest.lock */,
 				26F79DC81F9A86FE0028155E /* Sources */,
 				26F79DC91F9A86FE0028155E /* Frameworks */,
 				26F79DCA1F9A86FE0028155E /* Resources */,
+				A11D5DAFC4CCDBBC71FF9D0E /* [CP] Embed Pods Frameworks */,
+				60DFE64C9AD2C01F9CDD7A22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60DFE64C9AD2C01F9CDD7A22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EA_STORE/Pods-EA_STORE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A11D5DAFC4CCDBBC71FF9D0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EA_STORE/Pods-EA_STORE-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Moltin/Moltin.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moltin.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EA_STORE/Pods-EA_STORE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE112956481AABDBD6DC80E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EA_STORE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		26F79DC81F9A86FE0028155E /* Sources */ = {
@@ -256,6 +339,7 @@
 		};
 		26F79DDF1F9A86FE0028155E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A13EB0CB9CE69C9E6F14E07A /* Pods-EA_STORE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EA_STORE/Info.plist;
@@ -268,6 +352,7 @@
 		};
 		26F79DE01F9A86FE0028155E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B22B4E38CC66039398F46237 /* Pods-EA_STORE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EA_STORE/Info.plist;
