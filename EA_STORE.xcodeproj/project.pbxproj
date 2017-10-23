@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		265E0CAD1F9E5E2000CD736F /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265E0CAC1F9E5E2000CD736F /* MainTableViewCell.swift */; };
+		2674FCF21F9CEBFB0065B0E0 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2674FCF11F9CEBFB0065B0E0 /* DetailsViewController.swift */; };
 		26F79DD01F9A86FE0028155E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F79DCF1F9A86FE0028155E /* AppDelegate.swift */; };
 		26F79DD21F9A86FE0028155E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F79DD11F9A86FE0028155E /* ViewController.swift */; };
 		26F79DD51F9A86FE0028155E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F79DD31F9A86FE0028155E /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		265E0CAC1F9E5E2000CD736F /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		2674FCF11F9CEBFB0065B0E0 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		26F79DCC1F9A86FE0028155E /* EA_STORE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EA_STORE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F79DCF1F9A86FE0028155E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26F79DD11F9A86FE0028155E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 				26F79DD61F9A86FE0028155E /* Assets.xcassets */,
 				26F79DD81F9A86FE0028155E /* LaunchScreen.storyboard */,
 				26F79DDB1F9A86FE0028155E /* Info.plist */,
+				2674FCF11F9CEBFB0065B0E0 /* DetailsViewController.swift */,
+				265E0CAC1F9E5E2000CD736F /* MainTableViewCell.swift */,
 			);
 			path = EA_STORE;
 			sourceTree = "<group>";
@@ -221,6 +227,8 @@
 			files = (
 				26F79DD21F9A86FE0028155E /* ViewController.swift in Sources */,
 				26F79DD01F9A86FE0028155E /* AppDelegate.swift in Sources */,
+				265E0CAD1F9E5E2000CD736F /* MainTableViewCell.swift in Sources */,
+				2674FCF21F9CEBFB0065B0E0 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +390,7 @@
 				26F79DE01F9A86FE0028155E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
