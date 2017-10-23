@@ -9,6 +9,8 @@
 import UIKit
 
 class DetailsViewController: UIViewController {
+    
+    var myString: String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,5 +26,10 @@ class DetailsViewController: UIViewController {
 
     @IBAction func btnBack(_ sender: Any) {
         dismiss(animated: true, completion: nil)
+    }
+
+    
+    override func viewDidAppear(_ animated: Bool) {
+          print("Details view controller item: \(myString)")
     }
 }

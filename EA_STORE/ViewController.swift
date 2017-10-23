@@ -54,6 +54,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
     
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "details" {
+            let detailsViewController = segue.destination as! DetailsViewController
+            
+            let indexpath = tableView.indexPathForSelectedRow
+            
+            detailsViewController.myString = items[(indexpath?.row)!]
+            
+        }
+    }
 
 
 }

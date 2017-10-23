@@ -53,7 +53,7 @@
                                         </constraints>
                                         <connections>
                                             <outlet property="nameLabel" destination="XlF-pm-yWk" id="U4v-BU-oap"/>
-                                            <segue destination="hMm-KJ-2gR" kind="show" id="o4z-Rt-UD0"/>
+                                            <segue destination="hMm-KJ-2gR" kind="show" identifier="details" id="o4z-Rt-UD0"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
