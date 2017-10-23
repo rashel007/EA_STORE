@@ -104,7 +104,7 @@
                                     <navigationItem title="Details" id="RnL-nY-a0c">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="Z0d-zt-WIn">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="show" id="yj2-Xm-3wp"/>
+                                                <action selector="btnBack:" destination="hMm-KJ-2gR" id="0Sw-zg-3N7"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
